@@ -40,7 +40,7 @@ Every frame is a search for the **decisive moment** — cinematic, emotional, an
 
 - **React** + **Vite** — Fast, modern frontend tooling
 - **Vanilla CSS** — Custom design system with glassmorphism, dark mode, and micro-animations
-- **Deployed on** [Netlify](https://madhav-portfolio-brocode.netlify.app)
+- **Deployed on** [Netlify](https://madhav-twinportfolio.netlify.app/)
 
 ## 🌗 Features
 
