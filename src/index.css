@@ -1,0 +1,27 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --g50:#f0fdf4;--g100:#dcfce7;--g200:#bbf7d0;--g300:#86efac;
+  --g400:#4ade80;--g500:#22c55e;--g600:#10b981;--g700:#059669;
+  --g800:#065f46;--g900:#022c22;
+  --white:#ffffff;--off:#f7fffe;--surface:#f0fdf6;
+  --gray:#6b7280;--gray2:#374151;--gray3:#9ca3af;
+  --text:#0f2419;--text2:#2d5a3d;
+  --radius:16px;--radius-lg:24px;
+  --shadow:0 4px 24px rgba(16,185,129,.10);
+  --shadow-md:0 8px 40px rgba(16,185,129,.15);
+  --shadow-lg:0 20px 60px rgba(16,185,129,.18);
+  --glass:rgba(255,255,255,.75);
+  --glass-border:rgba(16,185,129,.18);
+  --font:'Plus Jakarta Sans',sans-serif;
+}
+.dark{
+  --white:#0d1f15;--off:#0a1a10;--surface:#0f2419;
+  --text:#ecfdf5;--text2:#86efac;
+  --glass:rgba(13,31,21,.85);
+  --glass-border:rgba(74,222,128,.15);
+  --gray:#9ca3af;--gray2:#d1fae5;--gray3:#6b7280;
+  --shadow:0 4px 24px rgba(0,0,0,.4);
+  --shadow-md:0 8px 40px rgba(0,0,0,.5);
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--off);color:var(--text);font-family:var(--font);overflow-x:hidden;transition:background .4s,color .4s;line-height:1.6}
